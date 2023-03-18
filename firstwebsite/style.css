@@ -1,0 +1,35 @@
+.back-img {
+    background-image: url('bg.jpg');
+    background-size: cover;
+    /* background-repeat: repeat-x; */
+    /* background-position: top; */
+
+}
+
+p{
+    /* Font size: 16px;
+    Font weight: 600;
+    Line height: 24px Font color:  */
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgb(19, 18, 18);
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.blog {
+    /* background-color: rgb(225, 248, 206); */
+    border: 2px solid rgb(252, 234, 134);
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    box-shadow: 50px;
+    /* box-shadow: 10px 10px lightblue; */
+    /* box-shadow: 0 4px 8px 0 rgba(255, 193, 193, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.blog:hover {
+    box-shadow: 0 4px 8px 0 rgba(255, 193, 193, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

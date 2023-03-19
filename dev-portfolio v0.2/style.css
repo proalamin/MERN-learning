@@ -189,7 +189,7 @@ main {
 /* resume style */
 .resume-deatils {
     display: flex;
-    gap:  30px;
+    gap: 30px;
     margin-top: 115px;
 }
 
@@ -197,10 +197,12 @@ main {
     font-weight: 700;
     font-size: 30px;
 }
-.resume-item{
+
+.resume-item {
     /* margin-bottom: 60px; */
     margin: 30px 0px;
 }
+
 .experience-title {
     font-weight: 700;
     font-size: 25px;
@@ -213,10 +215,60 @@ main {
     margin-bottom: 20px;
     color: #757575;
 }
-.resume-btn{
+
+.resume-btn {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 110px;
     /* justify-content: center; */
     /* margin: 0 auto; */
+}
+
+/* contact-section style */
+.footer {
+    background-color: #FFF8F3;
+    padding: 130px 250px 0 250px;
+}
+
+.contact-section {
+    display: flex;
+    gap: 100px;
+}
+
+.contact-title {
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.contact-description {
+    font-size: 16px;
+    color: #474747;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.contact-icon img {
+    gap: 10px 50px;
+    margin-left: 5px;
+}
+
+.contact-section input,
+textarea {
+    /* background-color: red; */
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    padding: 18px 30px;
+}
+
+.btn-submit {
+    margin-top: 10px;
+}
+
+.footer-copyright {
+    text-align: center;
+    color: #474747;
+    margin-top: 50px;
+    padding-bottom: 20px;
 }
